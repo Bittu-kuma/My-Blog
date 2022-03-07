@@ -1,0 +1,99 @@
+.how-to-start
+{
+    width:100%;
+    height:100vh;
+    background-image:radial-gradient(rgba(88,1,1,0.4),rgba(145,14,16,0.9));
+    text-align: center;   
+}
+.how-to-start h5
+{
+    font-family: cursive;
+    color:#e59c21;
+}
+.how-to-start h1, .startSection h4
+{
+    color:#fff;
+    margin-top:10px;
+}
+.all-view p > button
+{
+    background-color:#fff;
+    margin-top:50px;
+    color:#000;
+    font-family: 'Monstrate',sans-serif;
+    letter-spacing:1px;
+    padding:12px 50px;
+    border-radius:30px;
+}
+.all-view p > button:hover
+{
+    background-color:#000;
+    color:#f6b5ad;
+}
+.startSection h4
+{
+    font-size:22px;
+    margin-bottom:30px;
+}
+.startSection h6 > span
+{
+    background-color:#e59c21;;
+    padding:10px 17px;
+    border-radius:50%;
+    font-weight: bold;
+    color:#fff;
+}
+.startSection p
+{
+    font-size:18px;
+    font-family:cursive;
+    margin-top:15px;
+    font-weight:normal;
+    color:#fff;
+}
+@media (max-width:991px)
+{
+    .how-to-start
+    {
+        height:auto;
+        background-color: #440202;
+        background-image:none; 
+    }
+    .how-to-start h5
+    {
+        font-size: 14px;
+    }
+    .how-to-start h1
+    {
+        font-size: 22px;
+    }
+    .all-view p > button
+    {
+        background-color:#792021;
+        margin-bottom:10px;
+        color:#fff;
+        padding:10px 40px;
+    }
+    .all-view p > button:hover
+    {
+        background-color:#000;
+        color:#f6b5ad;
+    }
+    .startSection h4
+    {
+        font-size:18px;
+        margin-bottom:25px;
+        color:#e59c21;
+    }
+    .startSection h6 > span
+    {
+        color:#e59c21;
+        background-color: #fff;
+    }
+    .startSection p
+    {
+        font-size:18px;
+        margin-top:15px;
+        color:#fff;
+    }   
+}

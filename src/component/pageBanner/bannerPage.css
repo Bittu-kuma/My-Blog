@@ -1,0 +1,53 @@
+.page-banner
+{
+    width:100%;
+    height:auto;
+    background-image:url('../../images/page-banner-bg.jpg');
+    background-repeat: no-repeat;
+    background-position:22% 100%;
+    background-size: cover;
+}
+.page-banner-inner
+{
+    width:100%;
+    height: auto;
+    background-color:rgba(0,0,0,0.2);
+}
+.page-banner h1
+{
+    margin-top:30px;
+    line-height:100px;
+}
+.page-banner h1 span
+{
+    color:#fff;
+    text-transform: uppercase;
+    font-size:27px;
+    background-color:deepskyblue;
+    padding:10px 25px;
+}
+
+@media (max-width:991px)
+{
+    .page-banner
+    {
+        height:150px;
+        background-position:center;
+    }
+    .page-banner-inner
+    {
+        width:100%;
+        height:150px;
+        background-color:rgba(0,0,0,0.2);
+    }
+    .page-banner h1
+    {
+        margin-top:100px;
+        line-height:30px;
+    }
+    .page-banner h1 span
+    {
+        font-size:14px;
+        padding:7px 20px;
+    }   
+}
